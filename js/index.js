@@ -6,7 +6,7 @@ const refs = {
   btStop: document.querySelector('button[data-action="stop"]'),
 }
 
-console.log(refs);
+//console.log(refs);
 let intervalId = null;
 
 const randomIntegerFromInterval = (min, max) => {
